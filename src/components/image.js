@@ -23,10 +23,17 @@ const Image = () => {
           }
         }
       }
+      malcolmKapuza: file(relativePath: { eq: "malcolm-kapuza.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.malcolmKapuza.childImageSharp.fluid} />
 }
 
 export default Image
