@@ -620,3 +620,12 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+footer {
+  background-color: #EEEEEE;
+  color: #404040;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
