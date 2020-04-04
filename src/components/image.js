@@ -33,7 +33,12 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.malcolmKapuza.childImageSharp.fluid} />
+  return (
+    <Img
+      fluid={data.malcolmKapuza.childImageSharp.fluid}
+      imgStyle={{ borderRadius: `50%`, height: `200px`, width: `200px` }}
+    />
+  )
 }
 
 export default Image
