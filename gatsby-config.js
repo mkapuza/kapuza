@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Malcolm Kapuza`,
-    description: `Malcolm Kapuza is CTO of AlliedCrowds`,
+    description: `Malcolm Kapuza is Portfolio Manager at Lindy Digital`,
     author: `@malcolmkapuza`,
   },
   plugins: [
@@ -21,10 +21,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#5C45C4`,
+        theme_color: `#5C45C4`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/full-moon.png`, // This path is relative to the root of the site.
       },
     },
     {

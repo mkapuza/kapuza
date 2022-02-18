@@ -23,20 +23,17 @@ const Image = () => {
           }
         }
       }
-      placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
     }
   `)
 
   return (
     <Img
       fluid={data.malcolmKapuza.childImageSharp.fluid}
-      imgStyle={{ borderRadius: `50%`, height: `200px`, width: `200px` }}
+      imgStyle={{
+        borderRadius: `50%`,
+        height: `200px`,
+        width: `200px`,
+      }}
     />
   )
 }
