@@ -1,8 +1,12 @@
+
+const siteUrl =`https://kapuza.com`
+
 module.exports = {
   siteMetadata: {
     title: `Malcolm Kapuza`,
     description: `Malcolm Kapuza is Portfolio Manager at Lindy Digital`,
     author: `@malcolmkapuza`,
+    siteUrl: siteUrl,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,6 +37,7 @@ module.exports = {
         trackingId: "UA-91832366-1",
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
